@@ -17,3 +17,22 @@ def WaitToLoad (byItem, itemName):
         print ("Timeout happened no page load")
 options = Options ()
 #options.add_argument("--headless")
+driver.get("https://www.star-telegram.com/sports/dfwvarsity/article261026252.html")
+WaitToLoad (By.CSS_selector(".embed.infographic")
+
+element = driver.find._element_by_css_Selector(".embed-infographic")
+
+ActionChains(driver).move_to_element(element) \
+  .key_down(Keys.TAB) \
+  .key(up(Keys.TAB) \
+  .key_down(Keys.TAB) \
+  .key(up(Keys.TAB) \
+  .key_down(Keys.TAB) \
+  .key(up(Keys.TAB) \
+  .key_down(Keys.TAB) \
+  .key(up(Keys.TAB) \
+  .key_down(Keys.TAB) \
+  .key(up(Keys.TAB) \
+  .perform()
+
+driver.quit()
