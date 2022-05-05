@@ -17,7 +17,7 @@ def WaitToLoad (byItem, itemName):
         print ("Timeout happened no page load")
 options = Options ()
 #options.add_argument("--headless")
-driver.get("https://www.star-telegram.com/sports/dfwvarsity/article261026252.html")
+driver.get("")
 WaitToLoad (By.CSS_selector(".embed.infographic")
 
 element = driver.find._element_by_css_Selector(".embed-infographic")
